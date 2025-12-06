@@ -8,11 +8,4 @@ import '@aws-amplify/ui-react/styles.css';
 bootstrapApplication(AppComponent, appConfig)
   .catch((err) => console.error(err));
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <Authenticator>
-      <App />
-    </Authenticator>
-  </React.StrictMode>
-);
 
